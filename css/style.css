@@ -67,7 +67,7 @@ link to the exact top of the page.*/
 
 footer{
   background-color: #000000;
-  color: white;
+  color: #ffffff;
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 7 / auto;   /*Can you rewrite it?*/
   padding-top: 30px;
