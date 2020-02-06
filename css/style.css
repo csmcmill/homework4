@@ -89,7 +89,7 @@ header{
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
-  color: #ffffff;
+  color: #404040;
   height: 400px;                /* Parallax effect */
 
   grid-column: 1 / -1; /* Your code here */
@@ -98,7 +98,7 @@ header{
 }
 
 header p{
-  color: #ffffff;
+  color: #404040;
   font-size: 24px;
   padding: 0 100px;
   text-align: center;
