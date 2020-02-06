@@ -46,10 +46,11 @@ nav a:hover{
   z-index: 1;
 
   position: absolute; /*Your code here - position relative to the parent */
-  height: 40px; /*Your code here - place 40px higher */;
+  height: 40px; /*Your code here - place 40px higher */
+  overflow:hidden;
 }
 
-a.skip:focus{
+.skip a:focus{
   left: 0; 
   top: 0;
   width: auto; 
