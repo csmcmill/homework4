@@ -89,7 +89,7 @@ header{
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
-  color: #404040;
+  color: #ffffff;
   height: 400px;                /* Parallax effect */
 
   grid-column: 1 / -1; /* Your code here */
@@ -98,7 +98,7 @@ header{
 }
 
 header p{
-  color: #404040;
+  color: #ffffff;
   font-size: 24px;
   padding: 0 100px;
   text-align: center;
@@ -150,7 +150,7 @@ header p{
 }
 
 .text-block{
-  background-color: rgba(255, 255, 255), .8);
+  background-color: rgba(87, 87, 87), .8);
   border: 10px solid #000000;
   padding: 30px;
   text-align: center; /*Your code here:*/
