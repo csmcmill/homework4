@@ -46,7 +46,7 @@ nav a:hover{
   z-index: 1;
 
   position: absolute; /*Your code here - position relative to the parent */
-  height: 40px; /*Your code here - place 40px higher */
+  top: -40px; /*Your code here - place 40px higher */
   overflow:hidden;
 }
 
@@ -155,8 +155,9 @@ header p{
   background-color: rgba(87, 87, 87), .8);
   border: 10px solid #000000;
   padding: 30px;
-  justify-content: center; /*Your code here:*/
-  align-items: center; middle;/*Align the content in the center */
+  
+  justify-self: center; /*Your code here:*/
+  align-self: center;/*Align the content in the center */
 }
 
 
