@@ -48,16 +48,12 @@ nav a:hover{
   position: absolute; /*Your code here - position relative to the parent */
   top: -40px; /*Your code here - place 40px higher */
   overflow:hidden;
-  width:1px;
-  height:1px;
-  text-align: left;
 }
 
 .skip a:focus{
+  position: absolute;
   left:0;
   top:0;
-  width:auto;
-  height:auto;
   overflow:visible;
 }/*Your code here*/
 /*Add the selector and rule to move the skip 
@@ -125,7 +121,7 @@ header p{
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  grid-column: auto;
+  grid-column: 1 / -1;
   max-height: 700px; 
   overflow: hidden; /*Your code here */
  /* See documentation for mobile view */
@@ -158,6 +154,8 @@ header p{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid #000000;
   padding: 30px;
+  
+
   justify-self: center; /*Your code here:*/
   align-self: center;/*Align the content in the center */
 }
